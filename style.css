@@ -1,0 +1,85 @@
+/* General syle */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+p, code, li {
+    margin: 25px;
+}
+
+code {
+    font-size: 15px;
+    display: block;
+    background-color: darkgray;
+    padding: 15px;
+}
+
+#wrapper {
+    display: flex;
+    flex-flow: row;
+}
+
+#navbar {
+    background-color: #9DAE77;
+    width: 20%;
+}
+
+#main-doc {
+    width: 80%;
+}
+
+h2, h3 {
+    margin: 15px;
+}
+
+/* menu style */
+
+h1 {
+    margin: 15px;
+    text-align: center;
+}
+
+#menu {
+    display: block;
+    text-align: center;
+}
+
+#menu > li {
+    list-style: none;
+}
+
+#menu > li > a {
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #626A4F;
+}
+
+#menu > li > a:hover {
+    background-color: #464d36;
+}
+
+/* Reference style */
+
+#ref-menu > li {
+    display: inline-block;
+    list-style: none;
+}
+
+#ref-menu > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+#ref-menu > li > a:hover {
+    color: grey;
+}
+
+#ref-text {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
